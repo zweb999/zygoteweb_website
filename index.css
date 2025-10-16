@@ -1,0 +1,22 @@
+.updateheader
+{
+	padding: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.indexheader, .indexbody
+{
+
+    padding: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+.indexfooter
+{
+    padding: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
