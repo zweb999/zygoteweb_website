@@ -1,4 +1,4 @@
-.updateheader, .indexheader, .indexbody, .indexfooter
+.updateheader, .indexheader, .indexbody, .indexfooter, .locationheader 
 {
 	padding: 400px;
 	padding-top: 30px;
@@ -6,7 +6,11 @@
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
 }
-
+.locationheader
+{
+	text-align: left;
+	text-decoration: underline;
+}
 .updateheader
 {
 	text-align: center;
@@ -18,7 +22,7 @@
 
 @media screen and (max-width: 1386px)
 {
-	.updateheader, .indexheader, .indexbody, .indexfooter
+	.updateheader, .indexheader, .indexbody, .indexfooter, .locationheader
 	{
 		padding: 300px;
 		padding-top: 25px;
@@ -31,7 +35,7 @@
 
 @media screen and (max-width: 1000px)
 {
-	.updateheader, .indexheader, .indexbody, .indexfooter
+	.updateheader, .indexheader, .indexbody, .indexfooter, .locationheader
 	{
 		padding: 40px;
 		padding-top: 25px;
