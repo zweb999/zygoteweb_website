@@ -1,16 +1,44 @@
 .updateheader, .indexheader, .indexbody, .indexfooter
 {
-	padding: 50px;
+	padding: 400px;
+	padding-top: 30px;
+	padding-bottom: 30px;
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-@media screen and (max-width: 642px)
+.updateheader
+{
+	text-align: center;
+}
+.indexfooter
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 1386px)
 {
 	.updateheader, .indexheader, .indexbody, .indexfooter
 	{
-		padding: 25px;
+		padding: 300px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 		font-family:'Courier New', Courier, monospace;
 		font-size: 20px;
 	}
+
 }
+
+@media screen and (max-width: 1000px)
+{
+	.updateheader, .indexheader, .indexbody, .indexfooter
+	{
+		padding: 40px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		font-family:'Courier New', Courier, monospace;
+		font-size: 20px;
+	}
+
+}
+
